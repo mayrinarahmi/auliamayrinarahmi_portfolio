@@ -110,6 +110,18 @@ let swiper = new Swiper('.portofolio__container', {
 
 /*==================== TESTIMONIAL ====================*/
 
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 2000,
+    reset: true
+});
+
+sr.reveal(`.home__data, .home__img, .home__social, .about__data, .about__img, .about__info, .about__buttons, .section__title,
+ .section__subtitle, .footer__title, .footer__subtitle, .footer__links, .footer__socials, .footer__copy, .skill_content`, {
+    interval: 200
+})
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')

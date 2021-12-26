@@ -1022,6 +1022,14 @@ display: none;
     }
 
     .home__img{
+        /* padding-top: 1.3rem;
+        padding-left: .8rem;
+        width: 160px;
+        height: 160px;
+        background-color: var(--first-color);
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: var(--mb-2); */
         order: 1;
         justify-self: center;
     }
